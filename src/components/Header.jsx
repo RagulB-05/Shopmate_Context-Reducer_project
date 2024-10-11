@@ -2,10 +2,10 @@ import React from "react";
 import logo from "../assets/logo.png";
 import "./Header.css";
 import { Link, Navigate, NavLink } from "react-router-dom";
-import { useCart } from "../Context/CardContext";
+import { useCart } from "../context/CartContext";
 
 const Header = () => {
-  const {cartList} = useCart()
+  const { cartList } = useCart();
   return (
     <header>
       <Link to="/" className="logo">
