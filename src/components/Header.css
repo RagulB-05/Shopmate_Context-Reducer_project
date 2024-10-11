@@ -39,6 +39,9 @@ header {
 .items {
   text-decoration: none;
   color: inherit;
+  background-color: #e7fffe;
+  padding: 5px 10px;
+  border-radius: 7px;
 }
 
 @media screen and (max-width: 680px) {
