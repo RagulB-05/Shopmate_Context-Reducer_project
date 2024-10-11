@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid rgb(206, 206, 206);
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(1, 94, 110);
+  font-size: larger;
+}
+
+.link {
+  margin-right: 20px;
+  font-size: large;
+}

@@ -1,0 +1,42 @@
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.backbutton {
+  text-decoration: none;
+}
+
+.backbutton button {
+  border: 0px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1c59ae;
+  padding: 7px 10px;
+  cursor: pointer;
+  max-width: 150px;
+  display: block;
+  margin: auto;
+}
+
+.cart button:hover {
+  background-color: #103f80;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(2, 116, 136);
+}
+
+@media screen and (max-width: 680px) {
+  .cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
